@@ -3,21 +3,25 @@ import React from "react";
 import { makeStyles } from "@material-ui/core/styles";
 
 // @material-ui/icons
-import Chat from "@material-ui/icons/Chat";
-import VerifiedUser from "@material-ui/icons/VerifiedUser";
-import Fingerprint from "@material-ui/icons/Fingerprint";
+
 // core components
 import GridContainer from "components/Grid/GridContainer.js";
 import GridItem from "components/Grid/GridItem.js";
-import InfoArea from "components/InfoArea/InfoArea.js";
-import Button from "components/CustomButtons/Button";
+
 import styles from "assets/jss/material-kit-react/views/landingPageSections/productStyle.js";
-import AppDescription from "./AppDescription";
+
+//Media
 import Sotg from "../AppTools/Sotg";
 import SquadFinder from "../AppTools/SquadFinder";
+import Registration from "../AppTools/Registration";
+import Sixes from "../AppTools/Sixes";
+import Taiwana from "../AppTools/Taiwana";
+import Statkeeper from "../AppTools/Statkeeper";
+import Fantasy from "../AppTools/Fantasy";
+
 const useStyles = makeStyles(styles);
 
-export default function AppDemoSection() {
+export default function AppDemoSection({ refs }) {
   const classes = useStyles();
 
   return (
@@ -32,8 +36,13 @@ export default function AppDemoSection() {
           </h5>
         </GridItem>
       </GridContainer>
-      <SquadFinder direction="row" />
-      <Sotg direction="row-reverse" />
+      <Sotg refs={refs} />
+      <Sixes />
+      <Taiwana />
+      <SquadFinder />
+      <Registration />
+      <Statkeeper />
+      <Fantasy />
     </div>
   );
 }
