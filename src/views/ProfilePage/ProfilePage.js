@@ -5,8 +5,8 @@ import classNames from "classnames";
 import { makeStyles } from "@material-ui/core/styles";
 // @material-ui/icons
 //import SportsKabaddiIcon from "@material-ui/icons/SportsKabaddi";
-import Favorite from "@material-ui/icons/Favorite";
-import Sports from "@material-ui/icons/Sports";
+// import Favorite from "@material-ui/icons/Favorite";
+// import Sports from "@material-ui/icons/Sports";
 // core components
 import Header from "components/Header/Header.js";
 import Footer from "components/Footer/Footer.js";
@@ -14,21 +14,21 @@ import Button from "components/CustomButtons/Button.js";
 import GridContainer from "components/Grid/GridContainer.js";
 import GridItem from "components/Grid/GridItem.js";
 import HeaderLinks from "components/Header/HeaderLinks.js";
-import NavPills from "components/NavPills/NavPills.js";
+//import NavPills from "components/NavPills/NavPills.js";
 import Parallax from "components/Parallax/Parallax.js";
 
 import profile from "assets/img/profilePic.jpg";
 
-import studio1 from "assets/img/examples/studio-1.jpg";
-import studio2 from "assets/img/examples/studio-2.jpg";
-import studio3 from "assets/img/examples/studio-3.jpg";
-import studio4 from "assets/img/examples/studio-4.jpg";
-import studio5 from "assets/img/examples/studio-5.jpg";
-import work1 from "assets/img/examples/olu-eletu.jpg";
-import work2 from "assets/img/examples/clem-onojeghuo.jpg";
-import work3 from "assets/img/examples/cynthia-del-rio.jpg";
-import work4 from "assets/img/examples/mariya-georgieva.jpg";
-import work5 from "assets/img/examples/clem-onojegaw.jpg";
+// import studio1 from "assets/img/examples/studio-1.jpg";
+// import studio2 from "assets/img/examples/studio-2.jpg";
+// import studio3 from "assets/img/examples/studio-3.jpg";
+// import studio4 from "assets/img/examples/studio-4.jpg";
+// import studio5 from "assets/img/examples/studio-5.jpg";
+// import work1 from "assets/img/examples/olu-eletu.jpg";
+// import work2 from "assets/img/examples/clem-onojeghuo.jpg";
+// import work3 from "assets/img/examples/cynthia-del-rio.jpg";
+// import work4 from "assets/img/examples/mariya-georgieva.jpg";
+// import work5 from "assets/img/examples/clem-onojegaw.jpg";
 
 import styles from "assets/jss/material-kit-react/views/profilePage.js";
 
