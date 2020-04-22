@@ -1,5 +1,6 @@
 import firebase from "firebase/app";
 import "firebase/firestore";
+import "firebase/firebase-analytics";
 
 const firebaseConfig = {
   apiKey: "AIzaSyBmFOvNurufYMgP9LB4f93Zi7JdqS-RdOo",
@@ -12,5 +13,6 @@ const firebaseConfig = {
   measurementId: "G-5CNXJ4NWTT",
 };
 const db = firebase.initializeApp(firebaseConfig).firestore();
+firebase.analytics();
 
 export default db;
