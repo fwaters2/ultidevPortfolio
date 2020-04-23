@@ -1,4 +1,15 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Ultideveloper Website
+
+This project is live at www.ultideveloper.com/
+
+### Purpose
+
+This website was created to showcase tools built for the sport of Ultimate Frisbee to generate interest in non-developers.
+
+### Tech Stack
+
+This portfolio was built with Material UI in React using Firebase to store comments and Likes
+It was built from an open-source template at https://www.creative-tim.com/ (using the create-react-app package)
 
 ## Available Scripts
 
