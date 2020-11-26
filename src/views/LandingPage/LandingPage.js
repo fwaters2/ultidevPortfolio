@@ -18,6 +18,7 @@ import styles from "assets/jss/material-kit-react/views/landingPage.js";
 
 // Sections for this page
 import AppDemoSection from "./Sections/AppDemoSection.js";
+import PatreonSection from "./Sections/PatreonSection.js";
 
 const dashboardRoutes = [];
 
@@ -68,9 +69,8 @@ export default function LandingPage(props) {
       <div className={classNames(classes.main, classes.mainRaised)}>
         <div className={classes.container}>
           <AppDemoSection />
-          {/* <ProductSection />
-          <TeamSection />
-          <WorkSection /> */}
+
+          <PatreonSection />
         </div>
       </div>
       <Footer />
